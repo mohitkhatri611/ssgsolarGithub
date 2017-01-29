@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -17,48 +18,36 @@ namespace ssgsolar
 
         protected void btnSend_Click(object sender, EventArgs e)
         {
-            MailMessage msg = new MailMessage();
-            msg.From = new MailAddress(txtEmail.Text);
-            msg.To.Add("mohitkhatri611@gmail.com");
-            msg.Subject = "test for sending mail";
-            msg.Body = txtBody.Text;
+            try
+            {
+                MailMessage msg = new MailMessage();
+                msg.From = new MailAddress(txtEmail.Text);
+                msg.To.Add("info@ssgsolar.com");
+                msg.Subject = txtName.Text;
+                msg.Body = txtBody.Text;
 
-            msg.IsBodyHtml = true;
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtpout.secureserver.net";
-            System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
-            NetworkCred.UserName = "sgsolar@ssgsolar.com";
-            NetworkCred.Password = "sandeepKumar@6511";
-            smtp.UseDefaultCredentials = false;
-            smtp.Credentials = NetworkCred;
-            smtp.Port = 3535;
-            smtp.EnableSsl = true;
-            smtp.Send(msg);
-            lblMessage.Text = "Email Send..!!";
+                msg.IsBodyHtml = true;
+                SmtpClient smtp = new SmtpClient();
 
-
-
-
-
-          
-
-
-
-
-
-            //MailMessage mailMessage = new MailMessage(txtEmail.Text, "sssgsolar@gmail.com");
-            //mailMessage.Subject = "Test the mail sending From mohit";
-            //mailMessage.Body = txtBody.Text;
-
-            //SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
-            //smtpClient.Credentials = new System.Net.NetworkCredential()
-            //{
-            //    UserName = "sssgsolar@gmail.com",
-            //    Password = "sandeepKumar@6511"
-
-            //};
-            //smtpClient.EnableSsl = true;
-            //smtpClient.Send(mailMessage);
+                //smtp.Host = "smtpout.secureserver.net";
+                //System.Net.NetworkCredential networkCred = new System.Net.NetworkCredential();
+                //networkCred.UserName = "info@ssgsolar.com";
+                //networkCred.Password = "sandeepKumar@6511";
+                //smtp.UseDefaultCredentials = false;
+                //smtp.Credentials = networkCred;
+                //smtp.Port = 3535;
+                //smtp.EnableSsl = false;
+                smtp.Send(msg);
+                lblSend.ForeColor = Color.Green;
+                lblSend.Text = "Email Send Successfully ..!!";
+            }
+            catch (Exception exception)
+            {
+                lblSend.ForeColor = Color.Red;
+                lblSend.Text = "Invalid email address !!";
+                exception.HelpLink = "/Contact.aspx";
+            }
+           
         }
     }
 }

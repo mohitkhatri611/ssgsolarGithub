@@ -4,7 +4,7 @@
 $('#slider').cycle({
 
     fx: 'scrollHorz',
-    timeout: 3500,
+    timeout: 2000,
     next: "#next",
     prev: "#prev",
     pager: "#pager",
@@ -40,13 +40,13 @@ window.addEventListener("scroll", initParallax);
 
 //Side bar navigation bar with accordian
 
-$(document).ready(function (e) {
-    $('.has-sub').click(function () {
-        $(this).toggleClass('tap');
+//$(document).ready(function (e) {
+//    $('.has-sub').click(function () {
+//        $(this).toggleClass('tap');
 
-    });
+//    });
 
-});
+//});
 
 
 

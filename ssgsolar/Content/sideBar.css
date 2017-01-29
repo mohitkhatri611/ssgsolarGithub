@@ -1,0 +1,152 @@
+﻿
+.Wrapper2 {
+    Width: 1080px;
+    margin: 30px auto 20px auto;
+    
+    height: 100%;
+    overflow: hidden;
+    border: 2px solid #E3E3E3;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SideLeftBar {
+    width: 22%;
+    margin: 5px;
+    /*border: 1px solid;*/ /*sidebar border*/
+    float: left;
+    min-height: 400px;
+    padding: 0px;
+}
+
+.content_Right {
+    float: left;
+    width: 73%;
+    margin: 5px;
+    /*border: 1px solid;*/
+    /*margin: 40px 30px auto 0px;*/
+    padding: 10px 7px 10px 10px;
+    min-height: 400px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.description {
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    width: auto;
+}
+
+/*.StatieMenuStyle1 {
+    background-color: red;
+}
+
+.menu1 {
+    width: 200px;
+}
+
+.staticMenuItem1 {
+    background-color: red;
+    width: 150px;
+}
+
+.StaticHoverStyle1:hover {
+    border: 1px solid white;
+    background-color: black;
+}*/
+
+
+
+
+
+/*On mouse Hover Event*/
+
+.main-nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-nav-ul li ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-nav-ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#home1 {
+    background-color: #00008b;
+    color: white;
+}
+#home2 {
+    background-color: #00008b;
+    color: white;
+    
+}
+#home3 {
+    background-color: #00008b;
+    color: white;
+    
+}
+
+.main-nav {
+    width: 100%;
+    font-size: 15px;
+    background: #f1f1f1;
+}
+
+    .main-nav a {
+        text-decoration: none;
+    }
+
+    .main-nav li {
+        list-style: none;
+    }
+
+
+    .main-nav a {
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: .01em;
+        /*color: #FFF;*/
+        color: black;
+        display: block;
+        padding: 10px 0 10px 20px;
+        border-bottom: 2px solid #E3E3E3;
+        font-weight: bold;
+    }
+
+    .main-nav .main-nav-ul a:hover {
+        background: #ddd;
+    }
+
+.main-nav-ul ul {
+    display: none;
+}
+
+.main-nav-ul li:hover ul {
+    display: block;
+    background-color: black;
+}
+
+.main-nav-ul ul a:before {
+    content: '\203A';
+    margin: 20px;
+}
+
+.main-nav .sub-arrow:after {
+    content: '\203A';
+    float: right;
+    margin-right: 20px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+.main-nav li:hover .sub-arrow:after {
+    content: '\2039';
+}

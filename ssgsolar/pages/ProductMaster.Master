@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProductMaster.master.cs" Inherits="ssgsolar.pages.ProductMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ssgsolar</title>
+    <%--    <link href="Content/StyleSheet1.css" rel="stylesheet" />--%>
+    <link href="../Content/site.css" rel="stylesheet" />
+    <link href="../Content/header.css" rel="stylesheet" />
+
+    <link href="../Content/sideBar.css" rel="stylesheet" />
+
+    <script src="../JavaScript/script.js"></script>
+    <script src="../JavaScript/jquery-2.1.0.min.js"></script>
+    <script src="../JavaScript/jquery.cycle.all.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <img style="height: 130px; width: 270px; margin: 3px auto auto 30px;" src="/Images/logo.jpg" />
+    </div>
+    <div id="content">
+        <div id="navbar">
+            <ul class="nav-head">
+                <li><a href="/Default.aspx">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Solar Products</a>
+                    <div class="dropdown-content">
+                        <a href="/pages/SolarpvModule.aspx">Solar PV Module</a>
+                        <a href="/pages/SolarBattery.aspx">Solar Battery</a>
+                        <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Solar Services</a>
+                    <div class="dropdown-content">
+                        <a href="/pages/SolarSerPump.aspx">Solar Water Pump</a>
+                        <a href="/pages/SolarSerPatrolPump.aspx">Solar Peterol Pump</a>
+                        <%--<a href="/pages/SolarBattery.aspx">Solar Battery</a>
+                        <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>--%>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Solar System</a>
+                    <div class="dropdown-content">
+                        <a href="/pages/HomeLight.aspx">Home Light</a>
+                        <a href="/pages/StreetLight.aspx">Street Light</a>
+                        <%--<a href="/pages/SolarBattery.aspx">Solar Battery</a>
+                        <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>--%>
+                    </div>
+                </li>
+                <li><a href="/Product.aspx">Product</a></li>
+                <li><a href="/Contact Us.aspx">Contact</a></li>
+                <li><a href="/About.aspx">About</a></li>
+                
+                
+                <%--<li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>--%>
+            </ul>
+        </div>
+    </div>
+    <br />
+
+
+    <form id="form1" runat="server">
+
+
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Path="../JavaScript/script.js" />
+            </Scripts>
+        </asp:ScriptManager>
+
+
+
+
+        <div class="Wrapper2">
+            <br />
+            <div class="SideLeftBar">
+
+                <div class="main-nav">
+                    <ul class="main-nav-ul">
+                        <li><a href="#" id="home1">Solar Products</a></li>
+                        <li><a href="/pages/SolarpvModule.aspx">Solar PV Module</a></li>
+                        <li><a href="/pages/WaterHeater.aspx" >Solar Water Heater</a></li>
+                        <li><a href="/pages/SolarBattery.aspx">Solar Battery</a></li>
+                       <%-- <li><a href="#">Product<span class="sub-arrow"> </span></a>
+                            <ul>
+                                <li><a href="#">itme 1</a></li>
+                                <li><a href="#">item 2</a></li>
+                                <li><a href="#">item 3</a></li>
+                                <li><a href="#">item 3</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>--%>
+                    </ul>
+                    <ul class="main-nav-ul">
+                        <li><a href="#" id="home2">Solar Services</a></li>
+                        <li><a href="/pages/SolarSerPump.aspx" >Solar Pump</a></li>
+                        <li><a href="/pages/SolarSerPatrolPump.aspx" >Solar Petrol Pump</a></li>
+                    </ul>
+                    <ul class="main-nav-ul">
+                        <li><a href="#" id="home3">Solar System</a></li>
+                        <li><a href="/pages/HomeLight.aspx">Home Light</a></li>
+                        <li><a href="/pages/StreetLight.aspx">Street Light</a></li>
+                    </ul>
+                </div>
+
+
+
+
+                <%-- <asp:Menu ID="Menu1" ForeColor="white" runat="server" DisappearAfter="1000" CssClass="menu1">
+
+                  
+
+                    <StaticMenuStyle CssClass="MenuStyle" />
+                    <StaticMenuItemStyle BorderColor="white" BorderWidth="1px" BorderStyle="Solid"  CssClass="staticMenuItem1" ForeColor="black" HorizontalPadding="1px" VerticalPadding="30px"/>
+                    <StaticHoverStyle Font-Bold="True" BackColor="Black" />
+                    <StaticSelectedStyle BackColor="Black" />
+
+                    <DynamicMenuStyle BackColor="green" />
+                    <DynamicMenuItemStyle BorderColor="black" BorderWidth="1px" BorderStyle="Solid" />
+                    <DynamicHoverStyle Font-Size="18px" />
+                    <DynamicSelectedStyle BackColor="Yellow" />
+
+                    <Items>
+                        <asp:MenuItem Text="SolarLight" Value="SolarLight" NavigateUrl="~/SolarLight.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="SolarLamp" Value="SolarLamp" NavigateUrl="~/SolarLamp.aspx">
+                            <asp:MenuItem Text="SolarLight" Value="SolarLight" NavigateUrl="~/SolarLight.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="SolarHeater" Value="SolarHeater" NavigateUrl="~/SolarHeater.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Product" Value="About" NavigateUrl="Product.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="About" Value="About" NavigateUrl="About.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>--%>
+            </div>
+
+            <div class="content_Right">
+
+                <%--Code for Side Bar--%>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+
+        <div id="footer">
+            <p style="float: right; margin-top: 10px; font-size: 14px; margin-right: 30px;">Contact Us : 919812465114, 919416158340</p>
+            <p style="float: left; vertical-align: central; margin-top: 10px; margin-left: 20px;">All Rights Reserved.</p>
+
+        </div>
+    </form>
+</body>
+</html>

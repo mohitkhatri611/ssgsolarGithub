@@ -1,48 +1,221 @@
-﻿/*body
-{
-    margin:0px;
- padding:0px;
- font-family:Arial, Helvetica, sans-serif;
- }*/
-
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*color: #574c3f;
+    font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
+    /*font-family: lucida grande ,tahoma,verdana,arial,sans-serif;*/
+    /*background-color:white;*/
 }
 
-.wrapper
-{
-    width:1080px;
- 
+.wrapper {
+    width: 1080px;
+    background-color: white;
     margin: auto;
     padding: 0px;
-    min-height:660px;
+    min-height: 660px;
+    /*border: 3px solid #dedede;*/
+    /*border-radius:10px;*/
+}
+
+.navigation {
+    /*padding: 0px;
+    margin: 0px;*/
+    height: 60px;
+    /*border: 3px solid #E3E3E3;*/
+    /*background-color: cornflowerblue;*/
+    background-color: #00008b;
+    text-shadow: 0.1em 0.1em #333;
+    font-weight: bolder;
+    /*border-radius:10px;*/
 }
 
 
-.content_area
-{
+.content_area {
     float: left;
     width: 1050px;
     margin: 20px 0 20px 0;
     padding: 10px;
 }
 
-#footer
-{
-    padding:0px;
+#footer {
+    padding: 0px;
     clear: both;
     height: 45px;
     color: #fff;
     text-shadow: 0.1em 0.1em #333;
     background-color: #00008b;
-   
-  
+    background-color: darkblue;
 }
-.btnSend{
-     background-color: #00008b; /* Blue */
+
+#nav {
+    list-style: none;
+    margin: 0px;
+}
+
+    #nav ul {
+        list-style: none;
+        margin: 100px;
+        padding: 10px;
+        width: auto;
+        display: none;
+    }
+
+    #nav li {
+        font-size: 24px;
+        float: left;
+        position: relative;
+        width: 180px;
+        height: 50px;
+    }
+
+    #nav a:link, #nav a:active, #nav a:visited {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #nav a:hover {
+        color: lightblue;
+        background-color: yellow;
+    }
+
+.imgLeft {
+    float: left;
+    width: 500px;
+    height: 330px;
+    margin: 0px 10px 10px 0;
+    padding: 10px;
+    /*border: 1px solid #E3E3E3;*/
+    border-radius: 30px;
+    border-collapse: inherit;
+}
+
+.imgRight {
+    float: right;
+    width: 500px;
+    height: 320px;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    /*border: 1px solid #E3E3E3;*/
+    border-radius: 25px 50px;
+    padding-bottom: 3px;
+}
+
+
+
+
+/*Detail page*/
+.detailsImage {
+    height: 465px;
+    width: 400px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+.detailsDescription {
+    font-style: italic;
+    width: 1000px;
+}
+
+.detailsPrice {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 100px;
+    width: 300px;
+}
+
+.productName {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.productPrice {
+    font-family: arial,helvetica,sans-serif;
+    color: #FFB600;
+    font-size: 22px;
+    margin-left: 1150px;
+}
+
+.slider {
+    height: 350px;
+    width: 500px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px lightgray;
+}
+
+
+/*welcome code start*/
+
+.defaultPageContent {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.marqImg {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    .marqImg:hover {
+        border: 1px solid red;
+    }
+
+.marqueTable {
+    width: 100%;
+    align-items: center;
+}
+
+.marqTableTd {
+    margin: 0px;
+}
+
+.TableTdTxt {
+    text-align: center;
+    border: 1px solid;
+    padding-bottom: 3px;
+    width: 100%;
+    height: 40px;
+    background-color: #00008b;
+    color: #FFF;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.GMaps {
+    width: 1080px;
+    overflow: hidden;
+}
+
+.GmapLeft {
+    float: left;
+    margin-right: 30px;
+    border-radius: 15px;
+    border: 3px #696969;
+    overflow: hidden;
+}
+
+.GmapRight {
+    margin-top: 100px;
+}
+.aboutText {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Contact page classes*/
+
+.btnSend {
+    background-color: #00008b; /* Blue */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -59,15 +232,15 @@ body, html {
 }
 
 
-.btnSend:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+    .btnSend:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
 
-.btnSend:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+    .btnSend:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
 
 
 /*input[type=text] {
@@ -83,85 +256,25 @@ body, html {
     padding: 12px 20px 12px 40px;
 }*/
 
-.inquiryBox{
-    align-items:center;
-    width:auto;
-    margin:auto;
-    box-shadow:0px 8px 16px 0 rgba(0,0,0,0.2), 10px 6px 20px 10px rgba(0,0,0,0.19);
-    text-align:center;
-    border:0.005em;
+.inquiryBox {
+    align-items: center;
+    width: auto;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2), 10px 6px 20px 10px rgba(0,0,0,0.19);
+    text-align: center;
+    border: 0.005em;
     padding: 15px;
-
 }
 
-.txtbox{
-   width: 100%;
+.txtbox {
+    width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    
-    background-position: 10px 10px; 
+    background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-
 }
-
-
-.imgLeft
-{
-    float: left;
-    width: 500px;
-    height: 330px;
-    margin: 0px 10px 10px 0;
-    padding: 10px;
-    border-radius: 30px;
-    border-collapse: inherit;
-   
-}
-
-.imgRight
-{
-    float: right;
-    width: 500px;
-    height: 320px;
-    margin: 0px 0px 10px 10px;
-    padding: 10px;
-     border-radius: 25px 50px;
-     padding-bottom: 3px;
-}
-
-/*Detail page*/
-.detailsImage {
-    height: 465px;
-    width: 400px;
-    margin-right: 30px;
-    border-radius: 30px;
-    
-}
-
-.detailsDescription {
-    font-style: italic;
-    width: 1000px;
-}
-
-.detailsPrice {
-    font-weight: bold;
-    font-size: 24px;
-    padding-top:100px;
-    width: 300px;
-}
-.productName {
-    font-weight: bold;
-    font-size: 18px;
-    }
-
-
-.productPrice {
-    font-family: arial,helvetica,sans-serif;
-    color: #FFB600;
-    font-size:22px;
-    margin-left: 1150px;
-    
-}
+Contact page classes END

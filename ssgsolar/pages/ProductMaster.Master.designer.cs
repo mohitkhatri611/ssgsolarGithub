@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ssgsolar {
+namespace ssgsolar.pages {
     
     
-    public partial class Masterpage {
+    public partial class ProductMaster {
         
         /// <summary>
         /// form1 control.

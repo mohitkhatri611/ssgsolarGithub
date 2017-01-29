@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="Contact Us.aspx.cs" Inherits="ssgsolar.Contact_Us" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2 style="color: peru;">Corporate Office: </h2>
     <p style="font-size: 16px;">
@@ -8,7 +7,7 @@
         Owner Name &nbsp: Mr. Sandeep Kumar<br />
         Phone No. 1 &nbsp : +919812465114<br />
         Phone No. 2 &nbsp : +919416158340<br />
-        Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : sssgsolar@gmail.com
+       <%-- Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : sssgsolar@gmail.com--%>
     </p>
     <h2 style="color: peru;">Branch Office: </h2>
     <p style="font-size: 16px;">
@@ -46,10 +45,13 @@
     <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Button CssClass="btnSend" ID="btnSend" runat="server" OnClick="btnSend_Click" Text="Send" />
-
+        <br />
+        <br />
+        <asp:Label  ID="lblSend" runat="server"></asp:Label>
+         <br />
+         <br />
     </div>
     <br />
-
 
 
 </asp:Content>

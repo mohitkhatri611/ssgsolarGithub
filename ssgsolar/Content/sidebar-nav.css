@@ -1,4 +1,16 @@
-﻿   *{padding:0px; margin:0px;}
+﻿/*Using Mouse Hover*/
+    
+  
+
+
+
+
+ 
+/*Using javaScript*/
+
+
+
+/**{padding:0px; margin:0px;}
 .main-nav{ align-items:flex-start;float:left;margin:20px; width:200px; background-color:rgba(160,193,199,1.00);
 
 }
@@ -42,7 +54,7 @@
         .main-nav li.tap .sub-arrow:after {
 
             content: '\2039';
-        }
+        }*/
 
 
         /*Right nav sidebar code*/
@@ -50,7 +62,7 @@
 
 
          
-.right-nav{ align-items:flex-end; width:200px; background-color:rgba(160,193,199,1.00);
+/*.right-nav{ align-items:flex-end; width:200px; background-color:rgba(160,193,199,1.00);
 
 }
 
@@ -90,4 +102,4 @@
         .right-nav li.tap .sub-arrow:after {
 
             content: '\2039';
-        }
+        }*/
