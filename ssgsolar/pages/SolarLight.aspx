@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div class="description">
-        <h1>SOLAR PV MODULE</h1>
+        <h1>SSG Solar Light</h1>
         <p>SSG Solar Modules are made from high efficiency Multi Crystalline solar cells. Suitable number of cells are interconnected in series and then encapsulated in low iron content, high transmissivity tempered glass using UV stable Ethylene Vinyl Acetate (EVA) sheets and premium quality backsheet. These encapsulating materials protect the solar cells from the harsh environmental conditions when laminated together to ensure long life. The laminates are then framed with anodized aluminium frame with holes for ease of installation. PV modules are fitted with terminal box of suitable type and rating.</p>
         <img src="/Images/img2.jpg" height="200px" width="200px;" align="right" />
 

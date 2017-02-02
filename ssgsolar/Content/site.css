@@ -277,4 +277,14 @@
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
 }
-Contact page classes END
+/*Contact page classes END*/
+
+.prodtables{
+    
+    border:1px solid;
+    
+}
+.prodtables tr {
+    background-color:#F7F7DE;
+}
+
