@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>ssgsolar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <%--    <link href="Content/StyleSheet1.css" rel="stylesheet" />--%>
     <link href="../Content/site.css" rel="stylesheet" />
     <link href="../Content/header.css" rel="stylesheet" />
@@ -14,6 +15,7 @@
     <script src="../JavaScript/script.js"></script>
     <script src="../JavaScript/jquery-2.1.0.min.js"></script>
     <script src="../JavaScript/jquery.cycle.all.js"></script>
+    
 </head>
 
 <body>
@@ -31,6 +33,13 @@
                         <a href="/pages/SolarpvModule.aspx">Solar PV Module</a>
                         <a href="/pages/SolarBattery.aspx">Solar Battery</a>
                         <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>
+                        <a href="/pages/SolarLight.aspx">Solar Light</a>
+                        <a href="/pages/A10ChargeController.aspx">A 10 Charge Controller</a>
+                        <a href="/pages/A12ChargeController.aspx">A 12 Charge Controller</a>
+                        <a href="/pages/CeilingFan.aspx">Ceiling Fan</a>
+                        <a href="/pages/PedestralFan.aspx">Pedestral Fan</a>
+                        <a href="/pages/interface.aspx">Interface</a>
+                        <a href="/pages/TableFan.aspx">Table Fan</a>
                     </div>
                 </li>
                 <li class="dropdown">
@@ -54,8 +63,8 @@
                 <li><a href="/Product.aspx">Product</a></li>
                 <li><a href="/Contact Us.aspx">Contact</a></li>
                 <li><a href="/About.aspx">About</a></li>
-                
-                
+
+
                 <%--<li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
                     <div class="dropdown-content">
@@ -91,25 +100,43 @@
                     <ul class="main-nav-ul">
                         <li><a href="#" id="home1">Solar Products</a></li>
                         <li><a href="/pages/SolarpvModule.aspx">Solar PV Module</a></li>
-                        <li><a href="/pages/WaterHeater.aspx" >Solar Water Heater</a></li>
+                        <li><a href="/pages/WaterHeater.aspx">Solar Water Heater</a></li>
                         <li><a href="/pages/SolarBattery.aspx">Solar Battery</a></li>
-                       <%-- <li><a href="#">Product<span class="sub-arrow"> </span></a>
+                        
+                       
+                        <li><a href="#">SSG SOLAR LIGHT<span class="sub-arrow"> </span></a>
                             <ul>
-                                <li><a href="#">itme 1</a></li>
-                                <li><a href="#">item 2</a></li>
-                                <li><a href="#">item 3</a></li>
-                                <li><a href="#">item 3</a></li>
+                                 <li><a href="/pages/SolarLight.aspx">Solar Lantern</a></li>
+                                 <li><a href="/pages/LedBulb.aspx">Solar Led Bulb</a></li>
                             </ul>
 
                         </li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact Us</a></li>--%>
-                    </ul>
+                        
+                        <li><a href="#">Fan<span class="sub-arrow"> </span></a>
+                            <ul>
+                                 <li><a href="/pages/CeilingFan.aspx">Ceiling Fan</a></li>
+                        <li><a href="/pages/PedestralFan.aspx">Pedestral Fan</a></li>
+                                <li><a href="/pages/TableFan.aspx">Table Fan</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="#">Controllers <span class="sub-arrow"> </span></a>
+                            <ul>
+                                <li><a href="/pages/interface.aspx">Interface</a></li>
+                                <li><a href="/pages/A10ChargeController.aspx">A 10 Charge Controller</a></li>
+                                <li><a href="/pages/A12ChargeController.aspx">A 12 Charge Controller</a></li>
+                               <%-- <li><a href="#">itme 1</a></li>
+                                <li><a href="#">item 2</a></li>
+                                <li><a href="#">item 3</a></li>
+                                <li><a href="#">item 3</a></li>--%>
+                            </ul>
+
+                        </li>
+                        </ul>
                     <ul class="main-nav-ul">
                         <li><a href="#" id="home2">Solar Services</a></li>
-                        <li><a href="/pages/SolarSerPump.aspx" >Solar Pump</a></li>
-                        <li><a href="/pages/SolarSerPatrolPump.aspx" >Solar Petrol Pump</a></li>
+                        <li><a href="/pages/SolarSerPump.aspx">Solar Pump</a></li>
+                        <li><a href="/pages/SolarSerPatrolPump.aspx">Solar Petrol Pump</a></li>
                     </ul>
                     <ul class="main-nav-ul">
                         <li><a href="#" id="home3">Solar System</a></li>
@@ -145,6 +172,7 @@
                         <asp:MenuItem Text="About" Value="About" NavigateUrl="About.aspx"></asp:MenuItem>
                     </Items>
                 </asp:Menu>--%>
+                <asp:Button ID="btnEnquiry" runat="server" Text="Enquiry" CssClass="prodBtnEnquiry" />
             </div>
 
             <div class="content_Right">
@@ -156,7 +184,38 @@
 
             </div>
         </div>
+        <center>
+            
+            <asp:Panel ID="Panel1" runat="server" CssClass="modelPopUp">
+               
+       
+       
+       
+        <br />
+    <asp:TextBox CssClass="txtbox" ID="txtName" runat="server" Width="315px" placeholder="Product Name"></asp:TextBox>
+       
+        <br />
+        
+       <br />
+    <asp:TextBox CssClass="txtbox" ID="txtEmail" runat="server" Width="315px" placeholder="Enter Your Email Address"></asp:TextBox>
+        <br />
+     
+       <br />
+    <asp:TextBox CssClass="txtbox" ID="txtBody" runat="server" Height="150px" Width="315px" placeholder="Enter Your Message" TextMode="MultiLine"></asp:TextBox>
+       
 
+
+         <br />
+    
+                <asp:Button ID="btnSubmit" CssClass="btnSend" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="btnCancel" CssClass="btnSend" runat="server" Text="Cancel" />
+                 <br />
+        <asp:Label  ID="lblSend" runat="server"></asp:Label>
+            </asp:Panel>
+
+            <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender1" runat="server" CancelControlID="btnCancel" PopupControlID="Panel1" TargetControlID="btnEnquiry" BackgroundCssClass="modelBackground"></ajaxToolkit:ModalPopupExtender>
+        </center>
         <div id="footer">
             <p style="float: right; margin-top: 10px; font-size: 14px; margin-right: 30px;">Contact Us : 919812465114, 919416158340</p>
             <p style="float: left; vertical-align: central; margin-top: 10px; margin-left: 20px;">All Rights Reserved.</p>

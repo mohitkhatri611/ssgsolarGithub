@@ -5,7 +5,7 @@
 
     <div class="description">
         <h1>SOLAR TABLE FAN</h1>
-        <img src="/Images/img2.jpg"style="height: 250px; width: 350px; margin: 15px; float: right; border-radius: 3px; "  />
+        <img src="productImages/tablefan.JPG"style="height: 260px; width: 350px; margin: 15px; float: right; border-radius: 3px; "  />
        <p>This fan is manufactured using top-notch quality components and sophisticated techniques by adroit professionals. Ideal to be used for converting solar energy into high speed cool air, this fan is widely installed in various industries, restaurants and hospitals. Our precious clients can buy this Solar Powered Fan from us at pocket friendly rates.</p>
 
         <p>For working this Fan from Solar, you need 12V/20W, 12V/30W or 12V/40W Solar panel and 12V/5A Solar charge controller. To work from Solar, additionally you need to buy these items locally, 12V/12AH or bigger battery (longer the back-up hours needed, bigger the battery needs to be), Frame/Fixture for Solar Panel, Wiring of 4 mm or thicker gauge (longer the distance between solar panel, charge controller, battery, and fan, the thicker the wire needs to be)</p>

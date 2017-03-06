@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>ssgsolar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <%--    <link href="Content/StyleSheet1.css" rel="stylesheet" />--%>
     <%-- <link href="Content/site.css" rel="stylesheet" />--%>
     <%--<link href="Css/header.css" rel="stylesheet" />--%>
@@ -22,8 +24,11 @@
 </head>
 <body>
 
+        <form id="form1" runat="server">
+
     <div id="header">
-        <img style="height: 130px; width: 270px; margin: 3px auto auto 30px;" src="Images/logo.jpg" />
+        <img style="height: 130px; width: 270px; margin: 3px auto auto 30px; " src="Images/logo.jpg" />
+       
     </div>
     <div id="content">
         <div id="navbar">
@@ -35,6 +40,13 @@
                         <a href="/pages/SolarpvModule.aspx">Solar PV Module</a>
                        <a href="/pages/SolarBattery.aspx">Solar Battery</a>
                         <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>
+                      <a href="/pages/SolarLight.aspx">Solar Light</a>
+                        <a href="/pages/A10ChargeController.aspx">A 10 Charge Controller</a>                                   
+                        <a href="/pages/A12ChargeController.aspx">A 12 Charge Controller</a>
+                        <a href="/pages/CeilingFan.aspx">Ceiling Fan</a>
+                        <a href="/pages/PedestralFan.aspx">Pedestral Fan</a>
+                        <a href="/pages/interface.aspx">Interface</a>
+                        <a href="/pages/TableFan.aspx">Table Fan</a>
                     </div>
                 </li>
                 <li class="dropdown">
@@ -78,7 +90,6 @@
 
 
     <%--   <script src="JavaScript/script.js"></script>--%>
-    <form id="form1" runat="server">
 
         <asp:ScriptManager ID="ScriptManager1" runat="server">
             <Scripts>

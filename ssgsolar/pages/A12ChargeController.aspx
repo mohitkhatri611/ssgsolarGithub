@@ -6,7 +6,8 @@
 
     <div class="description">
         <h1>20 40 A12 V24 V CHARGE CONTROLLER</h1>
-        <img src="/Images/img2.jpg" style="height: 250px; width: 350px; margin: 15px; float: right; border-radius: 3px;" />
+
+        <img src="productImages/12vchargecontroller.JPG" style=" height: 30%; width: 50%; margin:auto; margin-left:150px;  border-radius: 3px;"/>
         <p>
             Higher capacity, intelligent charge controllers from SSG Solar uses advanced flash micro controller technology, matching international standards and specifications. These charge controllers are ideally suited for higher current PV specifications like power plants.
 

@@ -5,7 +5,7 @@
 
     <div class="description">
         <h1>SOLAR CEILING FAN</h1>
-        <img src="/Images/img2.jpg"style="height: 250px; width: 350px; margin: 15px; float: right; border-radius: 3px; "  />
+        <img src="productImages/ceilingFan.JPG"style="height: 250px; width: 350px; margin: 15px; float: right; border-radius: 3px; "  />
        <p>Our BLDC 12V Ceiling Fan can be operated at 12V DC. BLDC 12V Ceiling Fan is made to the highest quality giving the customer years of trouble free use. Switches: Because of the motor design, the fan is operated by a wall switch. The Vari-Fan does not come with a switch, but one can be purchased from us.</p>
 
         <p>Brushless DC ceiling fan is a variable speed or multiple files can be energy-efficient ceiling fan speed control products, than the regular AC motor ceiling fans and energy-saving 45% ~ 50%. The ceiling fan can be DC power (12V, 24VDC) power supply, but also AC power (120V/60Hz or 220V/50Hz) power supply, he has a small size, light weight, low noise.</p>

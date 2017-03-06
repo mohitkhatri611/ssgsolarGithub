@@ -157,6 +157,12 @@
 }
 
 
+.marq2Img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    cursor: pointer;
+}
 .marqImg {
     height: 80px;
     width: 80px;
@@ -287,4 +293,5 @@
 .prodtables tr {
     background-color:#F7F7DE;
 }
+
 

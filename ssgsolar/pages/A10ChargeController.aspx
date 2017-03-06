@@ -6,10 +6,10 @@
 
     <div class="description">
         <h1>10 A CHARGE CONTROLLER</h1>
-        <img src="/Images/img2.jpg" style="height: 250px; width: 350px; margin: 15px; float: right; border-radius: 3px;" />
+       <%-- <img src="productImages/10chargecontroller.JPG" style="height: 250px; width: 320px; margin: 15px; float: right; border-radius: 3px;" />--%>
         <p>We have carved a niche in this domain as a topmost manufacturer, exporter and supplier of Solar Charge Controller. This controller is manufactured under the guidance of skilled professionals using top-notch quality components and pioneering techniques. Suitable to be used for charging solar cells in case of deep discharge, this controller is highly acclaimed among customers. With commitment of on time delivery, this Solar Charge Controller can be availed from us at reasonable rates.</p>
 
-
+        <img src="productImages/10chargecontroller2.JPG" style=" height: 70%; width: 50%; margin:auto; margin-left:150px; border-radius: 3px;"/>
         <h1>Key Features.</h1>
 
         <ul>
@@ -21,6 +21,7 @@
             <li>Excellent charging algorithm</li>
             <li>Non-corrosive terminals</li>
             <li>Compact in size and easy to install</li>
+
 
         </ul>
 

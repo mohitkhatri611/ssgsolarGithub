@@ -5,7 +5,7 @@
 
     <div class="description">
         <h1>LED BULB</h1>
-        <img src="/pages/productImages/homeLight.JPG" style="height: 250px; width: 350px; margin: 15px; float: right; border-radius: 3px;" />
+        <img src="/pages/productImages/ledBulb.JPG" style="height: 250px; width: 270px; margin: 15px; float: right; border-radius: 3px;" />
         <p>SSG Solar provides led bulbs are extensively used in furniture, hotels, public, shop window, stores, casino and other places. Our lighted are provided in 7pcs Power LED and we offer them at industry leading prices to the clients. Thus, these are sourced from the authentic vendors and we offer them in a variety of specifications to the clients.</p>
         <p>These LED lights are demanded for both general and special purpose lighting applications, and have helped us garner a rich clientele in the market. These lights can charge with solar energy, which is considered as the natural way of power saving.</p>
 

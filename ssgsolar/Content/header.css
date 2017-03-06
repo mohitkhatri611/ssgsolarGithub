@@ -4,7 +4,9 @@
 }
 #main > *{margin-top:10px;}*/
 /*background-color:#000;*/ 
-#header{height:135px;}
+#header{height:135px;
+    width: 100%;
+}
 
 #content{
   height:1px;z-index: 10; position: relative;

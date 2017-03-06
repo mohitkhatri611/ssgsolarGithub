@@ -6,7 +6,7 @@
 
     <div class="description">
         <h1>SOLAR Battery</h1>
-        <img src="productImages/SolarBattery.jpg" style="height: 230px; width: 350px; margin: 20px; float: right;" />
+        <img src="productImages/SolarBattery.jpg" style="height: 230px; width: 300px; margin: 20px; float: right;" />
         <%--<img src="/Images/img2.jpg" height="200px" width="200px;" align="right" margin="20px" />--%>
         <p>SSG Solar is a top-notch brand of batteries offering distinct types of batteries out of all one is solar battery getting highly demanded in market due to its easy and efficient working. It offers a cost effective alternative for various problems which can simply be resolved with a power back-up. Solar batteries are highly stable, safe, durable and rechargeable upto large number of times. The main purpose of designing such batteries is to save fuel and provide an eco-friendly environment. To provide long-life to such batteries they are designed using thick, strong positive plates to avoid corrosion and make them last for long hours.</p>
         <p>Solar batteries offer low self discharge rate, better performance, long-lasting durability, higher current and power efficiency which makes them most suitable from users point of view. Some of the major applications of such batteries are solar inverters, solar domestic or street lights and many others. Each product is designed very precisely using highly advanced technologies being used now a days. It costs very effective along with advanced features among all other battery brands available in the market. Solar battery is one which is especially designed to make proper use of resources.</p>

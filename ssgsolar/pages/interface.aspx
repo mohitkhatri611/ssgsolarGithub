@@ -5,8 +5,9 @@
     <div class="description">
         <h1>INTERFACE</h1>
         <p>interface from SSG Solar is an intelligent energy management solar UPS system, specially designed for urban houses and commercial institutions, which require an un- interrupted power source with a considerable saving in electricity bill. The main power source of the system is Solar PV Modules, which produces DC electricity from sunlight. This DC electricity is stored into the batteries. The sine wave inverter of the power Conditioning Unit converts DC into AC to supply the AC loads connected such as computers, lights, fan etc</p>
-        <img src="/Images/img2.jpg" height="200px" width="200px;" align="right" />
-
+        
+         <img src="productImages/interface.JPG" style=" height: 30%; width: 50%; margin:auto; margin-left:150px;  border-radius: 3px;"/>
+       
         <h1>Features:</h1>
         <ul>
             <li>Maximum utilization of Solar Energy</li>
