@@ -4,16 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   <!-- Google Tag Manager -->
-<script>(function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MQB8L8C');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MQB8L8C');</script>
+    <!-- End Google Tag Manager -->
 
     <title>ssgsolar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -70,23 +70,28 @@
                 display: none;
             }
 
-    <script src="JavaScript/script.js"></script>
-    <script src="JavaScript/jquery-2.1.0.min.js"></script>
-    <script src="JavaScript/jquery.cycle.all.js"></script>
-    <script src="Scripts/jquery-3.1.1.min.js"></script>
+            .txtbox {
+                width: 20px;
+            }
+        }
 
-    <meta name="description" content="SSG Solar (Shri Shri Ganesh Solar Energy System) is a Solar Product and Service provider." />
-    <meta name="keywords" content="ssgsolar website, ssg solar website, website ssgsolar, ssg-solar, ssgsolar product website, sonipat ssgsolar website" />
+        @media only screen and (min-width: 1026px) {
+            .brand-display {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 
 
 
 <body>
+
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQB8L8C"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQB8L8C"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
 
 
 
@@ -109,50 +114,110 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="Default.aspx">Home</a></li>
 
-    <div id="header">
-        <img style="height: 130px; width: 270px; margin: 3px auto auto 30px; " src="Images/logo.jpg" />
-       
-    </div>
-    <div id="content">
-        <div id="navbar">
-            <ul class="nav-head">
-                <li><a href="Default.aspx">Home</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Solar Products</a>
-                    <div class="dropdown-content">
-                        <a href="/pages/SolarpvModule.aspx">Solar PV Module</a>
-                       <a href="/pages/SolarBattery.aspx">Solar Battery</a>
-                        <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>
-                      <a href="/pages/SolarLight.aspx">Solar Light</a>
-                        <a href="/pages/A10ChargeController.aspx">A 10 Charge Controller</a>                                   
-                        <a href="/pages/A12ChargeController.aspx">A 12 Charge Controller</a>
-                        <a href="/pages/CeilingFan.aspx">Ceiling Fan</a>
-                        <a href="/pages/PedestralFan.aspx">Pedestral Fan</a>
-                        <a href="/pages/interface.aspx">Interface</a>
-                        <a href="/pages/TableFan.aspx">Table Fan</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Solar Services</a>
-                    <div class="dropdown-content">
-                        <a href="/pages/SolarSerPump.aspx">Solar Water Pump</a>
-                        <a href="/pages/SolarSerPatrolPump.aspx">Solar Peterol Pump</a>
-                        <%--<a href="/pages/SolarBattery.aspx">Solar Battery</a>
-                        <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>--%>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Solar System</a>
-                    <div class="dropdown-content">
-                        <a href="/pages/HomeLight.aspx">Home Light</a>
-                        <a href="/pages/StreetLight.aspx">Street Light</a>
-                        <%--<a href="/pages/SolarBattery.aspx">Solar Battery</a>
-                        <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>--%>
-                    </div>
-                </li>
-               <%-- <li><a href="Product.aspx">Product</a></li>--%>
-                <li><a href="Contact Us.aspx">Contact</a></li>
-                <li><a href="About.aspx">About</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                            <li>  <a href="/pages/SolarpvModule.aspx">Solar PV Module</a></li>
+                            <li><a href="/pages/SolarBattery.aspx">Solar Battery</a></li>
+                            <li><a href="/pages/WaterHeater.aspx">Solar Water Heater</a></li>
+                            <li><a href="/pages/SolarLight.aspx">Solar Light</a></li>
+                            <li><a href="/pages/A10ChargeController.aspx">A 10 Charge Controller</a></li>
+                            <li><a href="/pages/A12ChargeController.aspx">A 12 Charge Controller</a></li>
+                            <li><a href="/pages/CeilingFan.aspx">Ceiling Fan</a></li>
+                            <li><a href="/pages/PedestralFan.aspx">Pedestral Fan</a></li>
+                            <li><a href="/pages/interface.aspx">Interface</a></li>
+                            <li><a href="/pages/TableFan.aspx">Table Fan</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Solar Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li>   <a href="/pages/SolarSerPump.aspx">Solar Water Pump</a></li>
+                           <li> <a href="/pages/SolarSerPatrolPump.aspx">Solar Peterol Pump</a></li>
+                                </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Solar System<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                               <li>  <a href="/pages/HomeLight.aspx">Home Light</a></li>
+                          <li>  <a href="/pages/StreetLight.aspx">Street Light</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li><a href="Contact Us.aspx">Contact</a></li>
+                        
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="About.aspx"><span class="glyphicon"></span>About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+
+        <footer class="container-fluid text-center">
+            <p style="float: right; margin-top: 10px; font-size: 14px; margin-right: 30px;">Contact Us : 919812465114, 919416158340</p>
+            <p style="float: left; vertical-align: central; margin-top: 10px; margin-left: 20px;">All Rights Reserved.</p>
+
+        </footer>
+
+
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<%--new designed for mobile supported interface.--%>
+<%--<div id="header">
+            <img style="height: 130px; width: 270px; margin: 3px auto auto 30px;" src="Images/logo.jpg" />
+
+        </div>
+        <div id="content">
+            <div id="navbar">
+                <ul class="nav-head">
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Solar Products</a>
+                        <div class="dropdown-content">
+                            <a href="/pages/SolarpvModule.aspx">Solar PV Module</a>
+                            <a href="/pages/SolarBattery.aspx">Solar Battery</a>
+                            <a href="/pages/WaterHeater.aspx">Solar Water Heater</a>
+                            <a href="/pages/SolarLight.aspx">Solar Light</a>
+                            <a href="/pages/A10ChargeController.aspx">A 10 Charge Controller</a>
+                            <a href="/pages/A12ChargeController.aspx">A 12 Charge Controller</a>
+                            <a href="/pages/CeilingFan.aspx">Ceiling Fan</a>
+                            <a href="/pages/PedestralFan.aspx">Pedestral Fan</a>
+                            <a href="/pages/interface.aspx">Interface</a>
+                            <a href="/pages/TableFan.aspx">Table Fan</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Solar Services</a>
+                        <div class="dropdown-content">
+                            <a href="/pages/SolarSerPump.aspx">Solar Water Pump</a>
+                            <a href="/pages/SolarSerPatrolPump.aspx">Solar Peterol Pump</a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Solar System</a>
+                        <div class="dropdown-content">
+                            <a href="/pages/HomeLight.aspx">Home Light</a>
+                            <a href="/pages/StreetLight.aspx">Street Light</a>
+
+                        </div>
+                    </li>
+
+                    <li><a href="Contact Us.aspx">Contact</a></li>
+                    <li><a href="About.aspx">About</a></li>
 
 
                 </ul>
