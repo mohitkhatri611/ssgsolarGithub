@@ -138,9 +138,11 @@
     <Content Include="Images\companiesLogo\ritika.JPG" />
     <Content Include="Images\companiesLogo\sukam.JPG" />
     <Content Include="Images\companiesLogo\sunfuel.JPG" />
-    <Content Include="Images\img1.jpg" />
-    <Content Include="Images\img2.jpg" />
-    <Content Include="Images\img3.jpg" />
+    <Content Include="Images\slider\img1.JPG" />
+    <Content Include="Images\slider\img2.JPG" />
+    <Content Include="Images\slider\img3.JPG" />
+    <Content Include="Images\slider\img7.JPG" />
+    <Content Include="Images\slider\img9.JPG" />
     <Content Include="pages\productImages\SolarLight1.jpg" />
     <Content Include="pages\productImages\SolarLight2.jpg" />
     <Content Include="Images\products\lantern.jpg" />
@@ -152,11 +154,6 @@
     <Content Include="Images\products\Solar-Pumps.jpg" />
     <Content Include="Images\products\street light.gif" />
     <Content Include="Images\logo.JPG" />
-    <Content Include="Images\slider\1.jpg" />
-    <Content Include="Images\slider\2.jpg" />
-    <Content Include="Images\slider\3.jpg" />
-    <Content Include="Images\slider\left-arrow.png" />
-    <Content Include="Images\slider\right-arrow.png" />
     <Content Include="JavaScript\jquery-2.1.0.min.js" />
     <Content Include="JavaScript\jquery-3.1.1.min.js" />
     <Content Include="JavaScript\jquery.cycle.all.js" />
@@ -389,7 +386,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51857</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51857/</IISUrl>
+          <IISUrl>http://localhost:8081/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
