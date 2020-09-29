@@ -22,7 +22,7 @@ namespace ssgsolar
             {
                 MailMessage msg = new MailMessage();
                 msg.From = new MailAddress(txtEmail.Text);
-                msg.To.Add("info@ssgsolar.com");
+                msg.To.Add("info@xyzr.com");
                 msg.Subject = txtName.Text;
                 msg.Body = txtBody.Text;
 
@@ -31,8 +31,8 @@ namespace ssgsolar
 
                 //smtp.Host = "smtpout.secureserver.net";
                 //System.Net.NetworkCredential networkCred = new System.Net.NetworkCredential();
-                //networkCred.UserName = "info@ssgsolar.com";
-                //networkCred.Password = "sandeepKumar@6511";
+                //networkCred.UserName = "m";
+                //networkCred.Password = "";
                 //smtp.UseDefaultCredentials = false;
                 //smtp.Credentials = networkCred;
                 //smtp.Port = 3535;

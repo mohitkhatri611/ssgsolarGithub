@@ -217,7 +217,7 @@
             <ajaxToolkit:ModalPopupExtender ID="ModalPopupExtender1" runat="server" CancelControlID="btnCancel" PopupControlID="Panel1" TargetControlID="btnEnquiry" BackgroundCssClass="modelBackground"></ajaxToolkit:ModalPopupExtender>
         </center>
         <div id="footer">
-            <p style="float: right; margin-top: 10px; font-size: 14px; margin-right: 30px;">Contact Us : 919812465114, 919416158340</p>
+            <p style="float: right; margin-top: 10px; font-size: 14px; margin-right: 30px;">Contact Us : </p>
             <p style="float: left; vertical-align: central; margin-top: 10px; margin-left: 20px;">All Rights Reserved.</p>
 
         </div>

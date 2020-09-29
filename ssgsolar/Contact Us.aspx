@@ -11,8 +11,8 @@
                     Geeta Bhawan Chowk, Sonepat-131001<br />
                     <br />
                     Owner Name &nbsp: Mr. Sandeep Kumar<br />
-                    Phone No. 1 &nbsp : +919812465114<br />
-                    Phone No. 2 &nbsp : +919416158340<br />
+                    Phone No. 1 &nbsp : <br />
+                    Phone No. 2 &nbsp : <br />
                     <%-- Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : sssgsolar@gmail.com--%>
                 </p>
                 <h2 style="color: peru;">Branch Office: </h2>

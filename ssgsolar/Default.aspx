@@ -172,8 +172,8 @@
                 </div>
                 <div class="col-sm-4 well">
                     <i></i>Sonipat, Haryana<br />
-                    <i></i>Phone: +91 9812465114<br />        
-                    <i></i>Email: info@ssgsolar.com<br />
+                    <i></i>Phone: <br />        
+                    <i></i>Email: <br />
 
                 </div>
             </div>

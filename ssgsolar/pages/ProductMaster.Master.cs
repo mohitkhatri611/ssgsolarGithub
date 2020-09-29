@@ -22,21 +22,14 @@ namespace ssgsolar.pages
             {
                 MailMessage msg = new MailMessage();
                 msg.From = new MailAddress(txtEmail.Text);
-                msg.To.Add("info@ssgsolar.com");
+                msg.To.Add(".com");
                 msg.Subject = txtName.Text;
                 msg.Body = txtBody.Text;
 
                 msg.IsBodyHtml = true;
                 SmtpClient smtp = new SmtpClient();
 
-                //smtp.Host = "smtpout.secureserver.net";
-                //System.Net.NetworkCredential networkCred = new System.Net.NetworkCredential();
-                //networkCred.UserName = "info@ssgsolar.com";
-                //networkCred.Password = "sandeepKumar@6511";
-                //smtp.UseDefaultCredentials = false;
-                //smtp.Credentials = networkCred;
-                //smtp.Port = 3535;
-                //smtp.EnableSsl = false;
+                
                 smtp.Send(msg);
                 lblSend.BackColor = Color.White;
                 lblSend.ForeColor = Color.Green;
