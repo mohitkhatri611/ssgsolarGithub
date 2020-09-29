@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -205,6 +206,13 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Product.aspx" />
+    <Content Include="screenshots\1.png" />
+    <Content Include="screenshots\2.png" />
+    <Content Include="screenshots\3.png" />
+    <Content Include="screenshots\4.png" />
+    <Content Include="screenshots\5.png" />
+    <Content Include="screenshots\6.png" />
+    <Content Include="screenshots\7.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
